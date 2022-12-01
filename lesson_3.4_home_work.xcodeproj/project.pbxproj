@@ -13,6 +13,8 @@
 		45BFF181293874F800540543 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFF17F293874F800540543 /* Main.storyboard */; };
 		45BFF183293874FA00540543 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45BFF182293874FA00540543 /* Assets.xcassets */; };
 		45BFF186293874FA00540543 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45BFF184293874FA00540543 /* LaunchScreen.storyboard */; };
+		45BFF18E29387A1E00540543 /* OrderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFF18D29387A1E00540543 /* OrderTableViewCell.swift */; };
+		45BFF19029387A4100540543 /* orderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45BFF18F29387A4100540543 /* orderModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		45BFF182293874FA00540543 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		45BFF185293874FA00540543 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		45BFF187293874FA00540543 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45BFF18D29387A1E00540543 /* OrderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewCell.swift; sourceTree = "<group>"; };
+		45BFF18F29387A4100540543 /* orderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				45BFF179293874F800540543 /* AppDelegate.swift */,
 				45BFF17B293874F800540543 /* SceneDelegate.swift */,
 				45BFF17D293874F800540543 /* ViewController.swift */,
+				45BFF18D29387A1E00540543 /* OrderTableViewCell.swift */,
+				45BFF18F29387A4100540543 /* orderModel.swift */,
 				45BFF17F293874F800540543 /* Main.storyboard */,
 				45BFF182293874FA00540543 /* Assets.xcassets */,
 				45BFF184293874FA00540543 /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				45BFF17E293874F800540543 /* ViewController.swift in Sources */,
 				45BFF17A293874F800540543 /* AppDelegate.swift in Sources */,
+				45BFF19029387A4100540543 /* orderModel.swift in Sources */,
+				45BFF18E29387A1E00540543 /* OrderTableViewCell.swift in Sources */,
 				45BFF17C293874F800540543 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
